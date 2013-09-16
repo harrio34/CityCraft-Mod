@@ -29,8 +29,6 @@ public class Strings
     public static final String NBT_ITEM_CHARGE_LEVEL_KEY = "itemChargeLevel";
     public static final String NBT_ITEM_MODE_KEY = "itemMode";
     public static final String NBT_ITEM_CRAFTING_GUI_OPEN = "itemCraftingGuiOpen";
-    public static final String NBT_ITEM_TRANSMUTATION_GUI_OPEN = "itemTransmutationGuiOpen";
-    public static final String NBT_ITEM_ALCHEMICAL_BAG_GUI_OPEN = "itemAlchemicalBagGuiOpen";
     public static final String NBT_ITEM_DISPLAY = "display";
     public static final String NBT_ITEM_COLOR = "color";
     public static final String NBT_TE_STATE_KEY = "teState";
@@ -51,14 +49,7 @@ public class Strings
     public static final String NBT_ENCODED_ATTR_ENERGY_NAME = "energyName";
 
     /* Block name constants */
-    public static final String CALCINATOR_NAME = "calcinator";
-    public static final String ALUDEL_NAME = "aludel";
-    public static final String ALCHEMICAL_CHEST_NAME = "alchemicalChest";
-    public static final String GLASS_BELL_NAME = "glassBell";
-    public static final String RED_WATER_STILL_NAME = "redWaterStill";
-    public static final String RED_WATER_FLOWING_NAME = "redWaterFlowing";
-    public static final String ALCHEMY_TABLE_NAME = "alchemyTable";
-    public static final String RENDERING_TANK_NAME = "renderingTank";
+	public static final String CEMENTFOUNDATION_NAME = "cementFoundation";;
 
     /* Item name constants */
 	public static final String BUILDERS_WAND_NAME = "buildersWand";
@@ -72,7 +63,6 @@ public class Strings
     public static final String TE_RENDERING_TANK_NAME = "tileRenderingTank";
 
     /* Container related constants */
-    public static final String CONTAINER_CALCINATOR_NAME = "container.ee3:" + CALCINATOR_NAME;
-	public static final String NEWBLOCK_NAME = "somethung.cc1" + NEW_BLOCK;
+    /* public static final String CONTAINER_CALCINATOR_NAME = "container.ee3:" + CALCINATOR_NAME; */
 }
 

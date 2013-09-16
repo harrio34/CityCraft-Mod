@@ -1,30 +1,29 @@
 package com.harrio34.citycraft1.block;
 
-import com.harrio34.citycraft1.lib.Strings;
-
 import net.minecraft.block.Block;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+
+import com.harrio34.citycraft1.lib.BlockIds;
+import com.harrio34.citycraft1.lib.Strings;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class ModBlocks 
 {
-	/* Mod block instances */
-    public static Block newblock;
+	//Register block names for ease of use
+    public static Block cementfoundation;
 
-    public static void init() {
-
+    public static void init() 
+    {
     	//Block Names
-        NewBlock = new BlockNewBlock(BlockIds.NewBlock);
+        cementfoundation = new BlockCementFoundation(BlockIds.CEMENTFOUNDATION);
         //Block Registry
-        GameRegistry.registerBlock(NewBlock, Strings.NEWBLOCK_NAME);
-
+        GameRegistry.registerBlock(cementfoundation, Strings.CEMENTFOUNDATION_NAME);
         initBlockRecipes();
     }
     //Crafting Recipies
     private static void initBlockRecipes() 
     {
-        GameRegistry.addRecipe(new ItemStack(NewBlock), new Object[] { "iii", "i i", "i i", Character.valueOf('i'), Block.glass });
+        GameRegistry.addRecipe(new ItemStack(cementfoundation), new Object[]{ "iii", "ioi", "iii", Character.valueOf('i'), Block.stone, Character.valueOf('o'), Block.brick});
     }
 }

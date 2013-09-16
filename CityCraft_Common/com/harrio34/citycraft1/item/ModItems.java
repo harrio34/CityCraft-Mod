@@ -1,11 +1,10 @@
-package com.harrio34.citycraft1.core.item;
-
-import com.harrio34.citycraft1.lib.ItemIds;
+package com.harrio34.citycraft1.item;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.block.Block;
+
+import com.harrio34.citycraft1.lib.ItemIds;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 

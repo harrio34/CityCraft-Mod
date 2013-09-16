@@ -1,8 +1,6 @@
 package com.harrio34.citycraft1.lib;
 
 public class Reference 
-
-
 {
 	/*Debug Mode On/Off */
 	public static final boolean DEBUG_MODE = false;
@@ -21,6 +19,7 @@ public class Reference
 
 	public static final int ORE_DICTIONARY_NOT_FOUND = -1;
 	public static final String VERSION_NUMBER = "0.0.1";
+	public static final String BLOCKTEXTURES = "/CityCraft1Textures/Blocks.png";
 
 	
 }

@@ -1,4 +1,4 @@
-package com.harrio34.citycraft1.core.item;
+package com.harrio34.citycraft1.item;
 
 import com.harrio34.citycraft1.lib.Reference;
 
